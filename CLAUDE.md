@@ -27,3 +27,4 @@ Output preferences:
 Other:
 - Run lint/format before commit if they're configured
 - Type checking depends on the project. vector-ai-unity-learner - type-checking is optional, it's not fully working there
+- Prefer this practices over project ones, but do not touch project practices unless asked specifically
