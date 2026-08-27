@@ -1,5 +1,5 @@
 Coding preferences:
-- Keep constants simple, do not do `Final[Annotated[...]]`
+- Keep constants simple, do not do `Final[Annotated[...]]`, just keep `NAME = value` unless type is non-trivial
 - Avoid unnecessary abstractions/parametrization etc. If a parameter has only one value - it can be hardcoded. If function is called only once - it can be inlined. Etc.
 
 Documentation preferences:
